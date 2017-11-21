@@ -12,9 +12,23 @@ namespace OneOf.UnitTests
     public class CtorTests : OneOfTestBase
     {
         [Test]
+        public void IntValueCreatesOneOf()
+        {
+            var oo = new OneOf<int, string>(123);
+            Assert.AreEqual("123", oo.ToString());
+        }
+
+        [Test]
+        public void StringValueCreatesOneOf()
+        {
+            var oo = new OneOf<int, string>("abc");
+            Assert.AreEqual("abc", oo.ToString());
+        }
+
+        [Test]
         public void NullValueThrowsException()
         {
-            Assert.Throws<ArgumentNullException>(() => CreateOneOf(null));
+            Assert.Throws<ArgumentNullException>(() => new OneOf<int, string>(null));
         }
 
         [Test]

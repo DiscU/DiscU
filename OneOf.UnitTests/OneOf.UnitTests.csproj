@@ -54,6 +54,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="ImplicitOperatorTests.cs" />
     <Compile Include="InequalityOperatorTests.cs" />
     <Compile Include="EqualityOperatorTests.cs" />
     <Compile Include="CtorTests.cs" />

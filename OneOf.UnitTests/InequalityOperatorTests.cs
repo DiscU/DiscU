@@ -32,13 +32,5 @@ namespace OneOf.UnitTests
             var oo1 = CreateOneOf("A");
             Assert.IsTrue(oo1 != null);
         }
-
-        // These should implicitly cast the string literals into OneOfs before doing the comparison
-
-        [Test]
-        public void InequalityOperatorReturnsFalseWhenSameValue2() => Assert.IsFalse(new OneOf<int, string>("A") != "A");
-
-        [Test]
-        public void InequalityOperatorReturnsTrueWhenDifferingValue2() => Assert.IsTrue(new OneOf<int, string>("A") != "B");
     }
 }
