@@ -1,7 +1,7 @@
 # OneOf
 [![Build status](https://ci.appveyor.com/api/projects/status/h67jylh563m71kaq/branch/DiscU?svg=true)](https://ci.appveyor.com/project/jamesbascle/oneof/branch/DiscU)
 [![NuGet version](https://badge.fury.io/nu/DiscU.svg)](https://badge.fury.io/nu/DiscU)
-[![NuGet Status](http://nugetstatus.com/DiscU.png)](http://nugetstatus.com/packages/DiscU)
+
 
 
 > install-package DiscU
