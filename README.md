@@ -4,8 +4,7 @@
 [![NuGet Status](http://nugetstatus.com/DiscU.png)](http://nugetstatus.com/packages/DiscU)
 
 
-
-> install-package OneOf
+> install-package DiscU
 
 
 This library provides F# style discriminated unions for C#, using a custom type ```OneOf<T0, ... Tn>```. An instance of this type holds a single value, which is one of the types in its generic argument list.
@@ -108,6 +107,6 @@ OneOf<True,False> trueOrFalse = True;
 OneOf<True,False,Unknown> success = trueOrFalse.ToOneOf<True,False,Unknown>();
 
 // this will fail at runtime as the new OneOf doesn't support True
-// (compile-time checks not yet available, yet to figure out how to do that)
+// (compile-time checks not available, the number of options is too large)
 OneOf<False, Unknown> fail = trueOrFalse.ToOneOf<False, Unknown>();
 ```
