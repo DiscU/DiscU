@@ -13,9 +13,7 @@ namespace OneOf
         readonly Type valueTn;
         bool hasSwitched;
 
-        internal OneOfSwitcher(object value, Type valueTn) : this(value, valueTn, false) { }
-
-        internal OneOfSwitcher(object value, Type valueTn, bool hasSwitched)
+        internal OneOfSwitcher(object value, Type valueTn, bool hasSwitched = false)
         {
             this.value = value;
             this.valueTn = valueTn;

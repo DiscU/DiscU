@@ -1,14 +1,29 @@
 # OneOf
+[![Build status](https://ci.appveyor.com/api/projects/status/h67jylh563m71kaq/branch/DiscU?svg=true)](https://ci.appveyor.com/project/jamesbascle/oneof/branch/DiscU)
+[![NuGet version](https://badge.fury.io/nu/DiscU.svg)](https://badge.fury.io/nu/DiscU)
+[![NuGet Status](http://nugetstatus.com/DiscU.png)](http://nugetstatus.com/packages/DiscU)
+
+
 
 > install-package OneOf
 
 
-This library provides F# style discriminated unions for C#, using a custom type `OneOf<T0, ... Tn>`. An instance of this type holds a single value, which is one of the types in its generic argument list.
+This library provides F# style discriminated unions for C#, using a custom type ```OneOf<T0, ... Tn>```. An instance of this type holds a single value, which is one of the types in its generic argument list.
+
+News
+---
+
+Version 1.0.0
+
+* Great speed improvements, greater than 100% in most cases, and up to 800% in some!
+
+* .When method added, though not perfectly type safe.  Next thing to work on though.
+
 
 Use cases
----------
+-------
 
-You can use this as a parameter type, allowing a caller to pass different types without requiring additional overloads. This might not seem that useful for a single parameter, but if you have multiple parameters, the numer of overloads required increases rapidly.
+You can use this as a parameter type, allowing a caller to pass different types without requiring additional overloads. This might not seem that useful for a single parameter, but if you have multiple parameters, the number of overloads required increases rapidly.
 
 ```C#
 
@@ -35,7 +50,7 @@ public OneOf<User, InvalidName, NameTaken> CreateUser(string username)
 ```
 
 Matching
---------
+-------
 
 `Match` is used for translating the value depending on it's type.  Each Match must translate the value to the same type.
 When all cases are handled the last call to `Match` returns the result.    
@@ -65,7 +80,7 @@ Color c3 = backgroundColor
 ```
 
 Switching
----------
+-------
 
 You use the `Switch` methods along with `Else` and `ElseThrow` methods to execute specific actions based on the value's type. E.g.
 
@@ -82,7 +97,7 @@ OneOf<string, NotFound, ErrX, ErrY, Etc> fileContents = ReadFile(fileName)
 ```
 
 ToOneOf
---------
+-------
 
 The `ToOneOf` method enables conversion to other OneOfs. E.g.
 

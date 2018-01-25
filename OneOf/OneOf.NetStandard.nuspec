@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>DiscU</title>
+    <authors>Original by Harry McIntyre. Fork by Will Moar. Contributions by James Bascle</authors>
+    <owners>James Bascle</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/jamesbascle/OneOf/tree/DiscU</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Portable library for easy to use F#-like Discriminated Unions in C#. Implicitly casts objects into OneOf instances, then use .Match extension to do pattern matching.  Designed as a partial drop in replacement for OneOf.
+    </description>
+    <copyright>Copyright 2016-2017</copyright>
+    <tags>Discriminated Union, Discriminated Unions, Pattern Matching, OneOf, Tagged Union, Sum Type, Tagged Unions, Sum Types</tags>
+  </metadata>
+  <files>
+    <file src="bin\release\*.dll" target="lib" />
+  </files>
+</package>
