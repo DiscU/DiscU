@@ -7,7 +7,7 @@
     <authors>Original by Harry McIntyre. Fork by Will Moar. Contributions by James Bascle</authors>
     <owners>James Bascle</owners>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
-    <projectUrl>https://github.com/jamesbascle/OneOf/tree/DiscU</projectUrl>
+    <projectUrl>https://github.com/DiscU/DiscU</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Portable library for easy to use F#-like Discriminated Unions in C#. Implicitly casts objects into OneOf instances, then use .Match extension to do pattern matching.  Designed as a partial drop in replacement for OneOf.
