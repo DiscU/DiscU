@@ -1,4 +1,4 @@
-# OneOf
+# DiscU
 [![Build status](https://ci.appveyor.com/api/projects/status/h67jylh563m71kaq/branch/DiscU?svg=true)](https://ci.appveyor.com/project/jamesbascle/oneof/branch/DiscU)
 [![NuGet version](https://badge.fury.io/nu/DiscU.svg)](https://badge.fury.io/nu/DiscU)
 
