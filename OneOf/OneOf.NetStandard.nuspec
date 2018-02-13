@@ -16,6 +16,6 @@
     <tags>Discriminated Union, Discriminated Unions, Pattern Matching, OneOf, Tagged Union, Sum Type, Tagged Unions, Sum Types</tags>
   </metadata>
   <files>
-    <file src="bin\release\*.dll" target="lib" />
+    <file src="bin\release\*.dll" target="lib\netstandard1.3" />
   </files>
 </package>
