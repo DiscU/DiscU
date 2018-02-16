@@ -11,8 +11,15 @@ This library provides F# style discriminated unions for C#, using a custom type 
 
 News
 ---
+Version 1.0.0.9
 
-Version 1.0.0
+* Cleaned up some of the structure from OneOf days.
+
+* DLL and project are now called DiscU to avoid confusion.
+
+* A 1.0.0.5 had a bug with the Nuspec that caused the package (now .NET Standard) to try to install as .NET Framework 4 package.  This obviously failed.  That is now resolved and that version is unpublished.
+
+Version 1.0.0.0
 
 * Great speed improvements, greater than 100% in most cases, and up to 800% in some!
 
