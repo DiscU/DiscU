@@ -89,9 +89,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OneOf\OneOf.NetStandard.csproj">
-      <Project>{56d67be9-f031-4225-9121-4d550852d1ac}</Project>
-      <Name>OneOf.NetStandard</Name>
+    <ProjectReference Include="..\OneOf\DiscU.csproj">
+      <Project>{2ce7adb2-a6c0-4ed5-8f10-06a3dc81e1e8}</Project>
+      <Name>DiscU</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -64,17 +64,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneOfTests.cs" />
+    <Compile Include="DiscUTests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestClasses.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OneOf\OneOf.NetStandard.csproj">
-      <Project>{56D67BE9-F031-4225-9121-4D550852D1AC}</Project>
-      <Name>OneOf.NetStandard</Name>
+    <ProjectReference Include="..\OneOf\DiscU.csproj">
+      <Project>{2ce7adb2-a6c0-4ed5-8f10-06a3dc81e1e8}</Project>
+      <Name>DiscU</Name>
+      <Aliases>DiscU</Aliases>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OneOf">
+      <Version>2.1.112</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

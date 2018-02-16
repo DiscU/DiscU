@@ -969,14 +969,14 @@
       ]
     },
     "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
-      "sha512": "pcA8f9qmmVR41/WOoew3JtZi9m1DFy89SdzUrUlpWqgP5pt7r+WAZRp0hWUaFihvIweFdBtdPGflT/NWXvOSpA==",
+      "sha512": "SaToCvvsGMxTgtLv/BrFQ5IFMPRE1zpWbnqbpwykJa8W5XiX82CXI6K2o7yf5xS7EP6t/JzFLV0SIDuWpvBZVw==",
       "type": "package",
       "path": "microsoft.netcore.windows.apisets/1.0.1",
       "files": [
-        "Microsoft.NETCore.Windows.ApiSets.1.0.1.nupkg.sha512",
-        "Microsoft.NETCore.Windows.ApiSets.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
+        "microsoft.netcore.windows.apisets.1.0.1.nupkg.sha512",
+        "microsoft.netcore.windows.apisets.nuspec",
         "runtime.json"
       ]
     },
@@ -3641,19 +3641,19 @@
     ".NETStandard,Version=v1.3": []
   },
   "packageFolders": {
-    "C:\\Users\\Orion\\.nuget\\packages\\": {}
+    "C:\\Users\\rbasc\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\projects\\GitHub\\OneOf\\OneOf\\OneOf.NetStandard.csproj",
-      "projectName": "OneOf.NetStandard",
-      "projectPath": "C:\\projects\\GitHub\\OneOf\\OneOf\\OneOf.NetStandard.csproj",
-      "projectJsonPath": "C:\\projects\\GitHub\\OneOf\\OneOf\\project.json",
-      "packagesPath": "C:\\Users\\Orion\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\GitHub\\OneOf\\OneOf\\obj\\",
+      "projectUniqueName": "C:\\projects\\GitHub\\DiscU\\OneOf\\DiscU.csproj",
+      "projectName": "DiscU",
+      "projectPath": "C:\\projects\\GitHub\\DiscU\\OneOf\\DiscU.csproj",
+      "projectJsonPath": "C:\\projects\\GitHub\\DiscU\\OneOf\\project.json",
+      "packagesPath": "C:\\Users\\rbasc\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\GitHub\\DiscU\\OneOf\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\Orion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rbasc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
@@ -3662,8 +3662,8 @@
       }
     },
     "dependencies": {
-      "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
-      "NETStandard.Library": "1.6.0"
+      "Microsoft.NETCore.Portable.Compatibility": "[1.0.1, )",
+      "NETStandard.Library": "[1.6.0, )"
     },
     "frameworks": {
       "netstandard1.3": {}
